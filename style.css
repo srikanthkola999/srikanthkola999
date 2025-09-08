@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1rem 2rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: linear-gradient(to right, #0077ff, #00c6ff);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
